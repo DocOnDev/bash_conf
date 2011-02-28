@@ -1,8 +1,9 @@
+
 [user]
 	name = Michael (Doc) Norton
 	email = michael@docondev.com
 [core]
-	editor = mvim
+	editor = vim
     autocrlf = input
     safecrlf = true
 	excludesfile = /Users/doc/bash_conf/.gitignore
