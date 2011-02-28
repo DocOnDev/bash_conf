@@ -1,0 +1,35 @@
+[user]
+	name = Michael (Doc) Norton
+	email = michael@docondev.com
+[core]
+	editor = mvim
+    autocrlf = input
+    safecrlf = true
+	excludesfile = /Users/doc/bash_conf/.gitignore
+[merge]
+	tool = vimdiff
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+    br = branch
+    df = diff
+    lgp = log -p
+    hist = log --pretty=tformat:\"%h %ad | %s%d [%an]\" --graph --date=short
+    lg = log --pretty=tformat:'%h %C(yellow)%cr%Creset %cn %C(cyan)%d%Creset %Cgreen%s%Creset' --graph
+    who = shortlog -s --
+    amend = commit --amend
+    type = cat-file -t
+    dump = cat-file -p
+[color]
+    ui = auto
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[color "branch"]
+    current = yellow
+    local = green
+    remote = cyan
