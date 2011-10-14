@@ -30,6 +30,9 @@ alias ctrb='/usr/local/bin/ctags -a -e -f TAGS --tag-relative -R app lib vendor 
 
 alias rcisco='sudo /System/Library/StartupItems/CiscoVPN/CiscoVPN restart'
 
+# Alias for league ssh
+alias ssh_ld_dev_small="ssh -i ~/.ec2/LDAccounting.pem ubuntu@ec2-184-73-87-233.compute-1.amazonaws.com"
+
 alias ll='ls -la'
 alias ls='ls -hF'
 
