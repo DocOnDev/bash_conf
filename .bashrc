@@ -32,6 +32,7 @@ alias rcisco='sudo /System/Library/StartupItems/CiscoVPN/CiscoVPN restart'
 
 # Alias for league ssh
 alias ssh_ld_dev_small="ssh -i ~/.ec2/LDAccounting.pem ubuntu@ec2-184-73-87-233.compute-1.amazonaws.com"
+alias start_mongo="mongod run --config /usr/local/Cellar/mongodb/2.0.0-x86_64/mongod.conf --rest"
 
 alias ll='ls -la'
 alias ls='ls -hF'
