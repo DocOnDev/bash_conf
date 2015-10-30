@@ -1,5 +1,7 @@
+if [ -t 1 ]; then
 _bold=$(tput bold)
 _normal=$(tput sgr0)
+fi
 
 __prompt_command() {
 	local vcs base_dir sub_dir ref last_command

@@ -22,10 +22,6 @@ alias push='git push'
 alias gst='git status'
 alias status='git status'
 
-alias sd='svn diff !* | mate'
-alias sdd='svn diff -r PREV | mate'
-alias sadd="svn st | grep '^\?' | tr '^\?' ' ' | sed 's/[ ]*//' | sed 's/[ ]/\\ /g' | xargs svn add"
-
 alias ctrb='/usr/local/bin/ctags -a -e -f TAGS --tag-relative -R app lib vendor spec features'
 
 alias rcisco='sudo /System/Library/StartupItems/CiscoVPN/CiscoVPN restart'
