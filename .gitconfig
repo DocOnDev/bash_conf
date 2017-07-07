@@ -1,12 +1,12 @@
 
 [user]
-	name = Michael (Doc) Norton
+	name = Doc Norton
 	email = michael@docondev.com
 [core]
 	editor = vim
-    autocrlf = input
+    autocrlf = false
     safecrlf = true
-	excludesfile = /Users/doc/bash_conf/.gitignore
+	excludesfile = /Users/CTO2-Doc/.gitignore
 [merge]
 	tool = vimdiff
 [alias]
@@ -34,3 +34,5 @@
     current = yellow
     local = green
     remote = cyan
+[credential]
+	helper = osxkeychain

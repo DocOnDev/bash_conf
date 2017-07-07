@@ -47,3 +47,5 @@ export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
 export LC_CTYPE=en_US.UTF-8
 export LSCOLORS=cxfxgxdxbxexexbxbxcxcx
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
