@@ -1,7 +1,7 @@
 
 [user]
 	name = Doc Norton
-	email = michael@docondev.com
+	email = doc@docondev.com
 [core]
 	editor = vim
     autocrlf = false
@@ -24,6 +24,7 @@
     amend = commit --amend
     type = cat-file -t
     dump = cat-file -p
+    pr = pull --rebase
 [color]
     ui = auto
 [color "status"]
@@ -36,3 +37,8 @@
     remote = cyan
 [credential]
 	helper = osxkeychain
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
